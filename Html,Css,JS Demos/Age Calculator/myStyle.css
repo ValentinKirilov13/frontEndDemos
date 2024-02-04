@@ -1,0 +1,56 @@
+@import url('https://fonts.cdnfonts.com/css/boxiest');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Boxiest', sans-serif;                                               
+}
+body{
+    background-color: #f7f7f7;
+}
+#calculator{
+    background-color: white;
+    text-align: center;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px 100px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px gray;
+}
+
+label{
+    margin-top: 20px;
+    display: block;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 3px solid #ececec;
+    cursor: pointer;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #0078ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 35px; ;
+}
+
+button:hover{
+    box-shadow: 0px 2px 2px 2px gray;
+    cursor: pointer;
+}

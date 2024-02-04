@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#box{
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #3f9ec8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+button:hover{
+    background-color: #26617b;
+}
+
+figure{
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3, 133px);
+}
+
+#rolling{
+    visibility: hidden;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+#currDice{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+}
+
+.result{
+    background-color: #f2f2f2;
+    height: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 1px 2px gray;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.result img {
+    width: 40px;
+    height: 40px;
+    mix-blend-mode: color-burn;
+    justify-self: right;
+    align-self: center;
+}
+
+.result p {
+   justify-self: start;
+   align-self: center;
+   font-size: 25px;
+   font-weight: bold;
+}

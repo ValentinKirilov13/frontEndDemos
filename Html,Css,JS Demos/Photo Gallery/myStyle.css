@@ -1,0 +1,171 @@
+@import url('https://fonts.cdnfonts.com/css/pt-sans-narrow');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body {   
+    background: linear-gradient(to bottom, #8be08f, #a9d5e4);
+    padding-bottom: 476px;
+}
+
+#box{
+    background-color: #f0f8ff;
+    margin: auto;
+    width: 1600px;
+    text-align: center;
+    padding: 20px 100px;
+    margin-top: 70px;
+}
+
+h1{
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+label{
+    display: block;
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+input{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+button{
+    width: 250px;
+    height: 45px;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+button:hover{
+    background-color: green;
+}
+
+#error{
+    color: red;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight:500;
+    visibility: hidden;
+}
+
+img{
+    width: 300px;
+    height: 160px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 4px gray;
+}
+
+
+@media ( max-width: 1669px ){
+    #box{   
+        width: 1350px;  
+    }
+}
+@media ( max-width: 1555px ){
+    #box{   
+        width: 1236px;  
+    }
+}
+@media ( max-width: 1437px ){
+    #box{   
+        width: 1122px;  
+    }
+}
+@media ( max-width: 1323px ){
+    #box{   
+        width: 1008px;  
+    }
+}
+@media ( max-width: 1209px ){
+    #box{   
+        width: 894px;  
+    }
+}
+@media ( max-width: 1095px ){
+    #box{   
+        width: 780px;  
+    }
+}
+@media ( max-width: 981px ){
+    #box{   
+        width: 666px;  
+    }
+}
+@media ( max-width: 867px ){
+    #box{   
+        width: 552px;  
+    }
+}
+@media ( max-width: 753px ){
+    #box{   
+        width: 438px;  
+    }
+}
+@media ( max-width: 639px ){
+    #box{   
+        width: 324px;  
+    }
+}
+@media ( max-width: 525px ){
+    #box{   
+        width: 360px; 
+        padding: 20px 50px;   
+    }
+}
+@media ( max-width: 475px ){
+    #box{   
+        width: 320px; 
+        padding: 20px 20px; 
+    }
+}
+@media ( max-width: 405px ){
+    #box{   
+        width: 280px; 
+        padding: 20px 20px; 
+    }
+    img{
+        width: 260px;
+        height: 140px;
+    }
+}
+@media ( max-width: 340px ){
+    #box{   
+        width: 240px; 
+        padding: 20px 20px; 
+    }
+    img{
+        width: 220px;
+        height: 120px;
+    }
+
+    button{
+        width: 200px;
+    }
+}

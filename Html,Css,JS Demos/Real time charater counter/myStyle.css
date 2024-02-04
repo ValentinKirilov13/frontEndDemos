@@ -1,0 +1,54 @@
+@import url('https://fonts.cdnfonts.com/css/millunium');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Millunium', sans-serif;                                                                                          
+}
+
+body{
+    background-color: #ff8b70;
+}
+
+#container{
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 50px 30px;
+    font-size: 20px;
+    background-color: #ffbdc0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+textarea{
+    width: 465px;
+    height: 90px;
+    font-size: 20px;
+    margin: 30px 0px;
+    margin-bottom: 20px;
+    border: 2px solid #ada9ac;
+    resize: none;
+    padding: 15px;
+}
+
+#result-box{
+    display: grid;
+    grid-template-columns: 150px 220px 110px 50px
+}
+
+#total{
+    color:#757575;
+}
+
+#remaining{
+    color:#757575;
+}
+
+#remaining-result{
+    color: #ef5b1d;
+}
+
+#total-result{
+    color: #856dbb;
+}
