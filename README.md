@@ -25,4 +25,5 @@
 ![Screenshot 2024-02-07 171918](https://github.com/ValentinKirilov13/frontEndDemos/assets/144913661/cfa38ea3-4f1c-47cb-b6cf-4afd833fe674)
 
 # Wheather application 🌞
+(works with API)
 ![Screenshot 2024-02-07 171941](https://github.com/ValentinKirilov13/frontEndDemos/assets/144913661/35268e03-c07b-4202-b37a-f5d07dc309c7)
